@@ -1,0 +1,13 @@
+h2 {
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.destaque {
+  font-style: italic;
+  background-color: #f9f9a8;
+}
+
+#importante {
+  border-top: 4px solid red;
+}

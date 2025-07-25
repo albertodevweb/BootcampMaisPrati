@@ -1,0 +1,43 @@
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  position: relative;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    background-color: #444;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .menu.show {
+    display: flex;
+  }
+}
